@@ -1,0 +1,25 @@
+.layout{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    grid-gap: 1rem;
+}
+.header{
+    text-align: center;
+}
+#top{
+   
+    text-align: center;
+}
+
+.bottom{
+    display: grid;
+    grid-template-columns: [column1-start] 80% [column1-end column2-start] 19% [column2-end];
+    grid-gap: 1rem;
+}
+.bottom > div{
+    background: #EDE7F6;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+
+}

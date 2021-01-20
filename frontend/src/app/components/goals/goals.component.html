@@ -1,0 +1,37 @@
+<div class ="goals">
+         <div id="daily">
+        <ul *ngIf="dailyGoals">
+            <h2>Ziele - Täglich</h2>
+            <div *ngFor="let goal of dailyGoals">
+                <h3>{{goal.name}} </h3>
+            </div>
+        </ul>
+    </div>
+
+    <div id="weekly">   
+        <ul *ngIf="weeklyGoals">
+            <h2>Ziele - Wöchentlich</h2>
+            <div *ngFor="let goal of weeklyGoals">
+                <h3>{{goal.name}}</h3> 
+            </div>
+        </ul>
+    </div>
+
+    <div id="monthly">
+        <ul *ngIf="monthlyGoals">
+            <h2>Ziele - Monatlich</h2>
+            <div *ngFor="let goal of monthlyGoals">
+                <h3>{{goal.name}}</h3> 
+            </div>
+        </ul>
+    </div>
+
+    <div id="yearly">
+        <ul *ngIf="yearlyGoals">
+            <h2>Ziele - Jährlich</h2>
+            <div *ngFor="let goal of yearlyGoals">
+                <h3>{{goal.name}}</h3>  
+            </div>
+        </ul>
+    </div>
+</div>

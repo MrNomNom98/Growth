@@ -1,0 +1,51 @@
+
+.goals{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+    grid-gap: 1rem;
+    text-align: center;
+}
+.grid > div {
+    background: #EDE7F6;
+    padding: 1.5rem;
+    border-radius: 1rem;
+  }
+
+body {
+margin: 2rem;
+font: 12px system-ui;
+}
+
+#header{
+    text-align: center;
+}
+#daily{
+    text-align: center;
+    background: #EDE7F6;
+    padding: 1.5rem;
+    border-radius: 1rem;
+
+
+}
+#weekly{
+    text-align: center;
+    background: #EDE7F6;
+    padding: 1.5rem;
+    border-radius: 1rem;
+
+
+}
+#monthly{
+    text-align: center;
+    background: #EDE7F6;
+    padding: 1.5rem;
+    border-radius: 1rem;
+
+ 
+}
+#yearly{
+    text-align: center;
+    background: #EDE7F6;
+    padding: 1.5rem;
+    border-radius: 1rem;  
+}
