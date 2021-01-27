@@ -4,8 +4,6 @@ export const DAILY: Goal[] = [
     {name: "Früh aufstehen"},
     {name: "Sport machen"},
     {name: "Dehnen"},
-    {name: "Medititeren"},
-    {name: "Gemütliches Frühstück"},
     {name: "Programmieren"},
     {name: "Lesen"},
     {name: "Klavier spielen"},
