@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GoalsComponent } from './components/goals/goals.component';
 import { DeadlinesComponent } from './components/deadlines/deadlines.component';
-import { CalenderComponent } from './components/calender/calender.component';
+import { calendarComponent } from './components/calendar/calendar.component';
 
 
 @NgModule({
@@ -13,7 +13,7 @@ import { CalenderComponent } from './components/calender/calender.component';
     AppComponent,
     GoalsComponent,
     DeadlinesComponent,
-    CalenderComponent
+    calendarComponent
   ],
   imports: [
     BrowserModule,
