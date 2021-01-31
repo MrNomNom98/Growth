@@ -1,5 +1,5 @@
 .entireCol{
-    height: 340px;
+    height: 360px;
     background-color: whitesmoke;
     color: black
 }
@@ -25,4 +25,16 @@ td{
 .date{
     background-color: whitesmoke;
     border-bottom: 1px solid #1d1d1b;
+    height: 20px;
+}
+.time{
+    padding-top: 2 * 4.08%;
+    height: 340px;
+
+}
+.time > p {
+    height: 2* 4.08%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #069;
 }

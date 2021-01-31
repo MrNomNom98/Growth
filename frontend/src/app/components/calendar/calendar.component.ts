@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 
 export class calendarComponent implements OnInit {
 
+
   today = new Date();
 
   dateint0 = this.today.setDate(new Date().getDate());
