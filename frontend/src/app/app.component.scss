@@ -1,10 +1,17 @@
 .layout{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    grid-template-columns: [column1-start] 74vw [column1-end column2-start] 24vw [column2-end column3-start] 74vw [column3-end];
+    grid-template-rows: auto;
+
     grid-gap: 1rem;
 }
 .layout > div{
+
     height: 45vh;
+    background-color: #1d1d1b;
+    border-radius: 1rem;
+    text-align: center;
+    color: white;
 }
 .header{
     text-align: center;
@@ -28,7 +35,7 @@
     background: #1d1d1b;
     padding: 1.5rem;
     border-radius: 1rem;
-    text-align: center;
+    
     color: white;
     height: 47vh;
 
